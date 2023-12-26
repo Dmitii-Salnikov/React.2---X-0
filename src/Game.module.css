@@ -1,0 +1,65 @@
+:root {
+    --green: #2b4943;
+    --green-hover: #79cbb87d;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--green);
+    background: #FDFFBE;
+    background: linear-gradient(135deg, #FDFFBE, #79CBB8);
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: normal;
+    margin-bottom: 40px;
+    color: var(--green);
+}
+
+.container {
+    width: 300px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gameField {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.resetButton {
+    color: var(--green);
+    font-size: 1.2rem;
+    font-weight: 700;
+    background-color: transparent;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    outline: 2px solid var(--green);
+    transition: background-color .1s ease-in-out;
+}
+
+.resetButton:hover {
+    background-color: var(--green-hover);
+}
+
+.resetButton:active {
+    outline: 3px solid var(--green);
+}
