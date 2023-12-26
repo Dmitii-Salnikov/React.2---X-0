@@ -8,7 +8,7 @@
     justify-content: center;
     align-items: center;
     margin-bottom: 40px;
-    outline: 2px solid var(--green);
+    outline: 3px solid var(--green);
 }
 
 .cell {
@@ -20,7 +20,7 @@
     border: none;
     font-size: 5.5rem;
     font-weight: 200;
-    outline: 1px solid var(--green);
+    outline: 2px solid var(--green);
     cursor: pointer;
     background-color: transparent;
     transition: background-color .1s ease-in-out;
@@ -31,6 +31,6 @@
 }
 
 .image {
-    width: 85%;
-    height: 85%;
+    width: 80%;
+    height: 80%;
 }
