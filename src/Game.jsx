@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { GameLayout } from './GameLayout';
 import { initialField } from './constants/field';
 import * as check from './utils/check.js';
+import PropTypes from 'prop-types';
 
 export const Game = () => {
 	const [currentPlayer, setCurrentPlayer] = useState('X');
@@ -47,4 +48,13 @@ export const Game = () => {
 			}}
 		/>
 	);
+};
+
+GameLayout.propTypes = {
+	field: PropTypes.array,
+	isDraw: PropTypes.bool,
+	isGameEnded: PropTypes.bool,
+	currentPlayer: PropTypes.string,
+	handleReset: PropTypes.func,
+	handleClick: PropTypes.func,
 };

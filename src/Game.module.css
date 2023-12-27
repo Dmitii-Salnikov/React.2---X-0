@@ -1,5 +1,5 @@
 :root {
-    --green: #2b4943;
+    --gray: #3e3e3e;
     --green-hover: #79cbb87d;
 }
 
@@ -16,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
-    color: var(--green);
+    color: var(--gray);
     background: #FDFFBE;
     background: linear-gradient(135deg, #FDFFBE, #79CBB8);
 }
@@ -24,8 +24,8 @@ body {
 .title {
     font-size: 2rem;
     font-weight: normal;
-    margin-bottom: 40px;
-    color: var(--green);
+    margin-bottom: 20px;
+    color: var(--gray);
 }
 
 .container {
@@ -45,14 +45,14 @@ body {
 }
 
 .resetButton {
-    color: var(--green);
+    color: var(--gray);
     font-size: 1.2rem;
     font-weight: 700;
     background-color: transparent;
     padding: 10px;
     border: none;
     cursor: pointer;
-    outline: 2px solid var(--green);
+    outline: 2px solid var(--gray);
     transition: background-color .1s ease-in-out;
 }
 
@@ -61,5 +61,5 @@ body {
 }
 
 .resetButton:active {
-    outline: 3px solid var(--green);
+    outline: 3px solid var(--gray);
 }

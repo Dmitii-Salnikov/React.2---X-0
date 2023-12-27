@@ -1,7 +1,6 @@
-import styles from './Game.module.css';
 import { Info } from './components/information/Information';
 import { Field } from './components/field/Field';
-
+import styles from './Game.module.css';
 export const GameLayout = ({ props }) => {
 	const { field, isDraw, isGameEnded, currentPlayer, handleReset, handleClick } = props;
 	return (
